@@ -16,7 +16,7 @@ match day:
     case 7:
         print("Sunday")
     case _:
-        print("Invalid day number! Please enter 1–7.")
+        print("Invalid day number! Please enter 1-7.")
 
 
 
