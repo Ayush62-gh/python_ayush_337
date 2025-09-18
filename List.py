@@ -92,3 +92,17 @@ print(thislist)
 thislist=["Apple","Banana","cherry"]
 thislist.reverse()
 print(thislist)
+
+#copy list
+list4=list3.copy()
+print(list4)
+
+#slice operator
+list5=list3[:]
+print(list5)
+
+#join two lists
+list6=[1,2,3,4,5]
+list7=["a","b","c","d","e"]
+list8=list6+list7
+print(list8)
