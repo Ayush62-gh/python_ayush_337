@@ -88,7 +88,7 @@ thislist=["Apple","BAnana","cherry"]
 thislist.sort(key=str.lower)
 print(thislist)
 
-# #reverse order
+#reverse order
 thislist=["Apple","Banana","cherry"]
 thislist.reverse()
 print(thislist)
