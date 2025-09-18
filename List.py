@@ -106,3 +106,8 @@ list6=[1,2,3,4,5]
 list7=["a","b","c","d","e"]
 list8=list6+list7
 print(list8)
+
+#append method
+for x in list7:
+    list6.append(x)
+print(list6)
