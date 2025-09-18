@@ -108,6 +108,10 @@ list8=list6+list7
 print(list8)
 
 #append method
-for x in list7:
-    list6.append(x)
+#for x in list7:
+#    list6.append(x)
+#print(list6)
+
+#extend method
+list6.extend(list7)
 print(list6)
