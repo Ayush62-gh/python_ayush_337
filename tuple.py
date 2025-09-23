@@ -39,3 +39,7 @@ fruits = ("apple","banana","cherry","orange","kiwi","mango")
 print(green)
 print(yellow)  
 print(red)
+
+#loop through a tuple
+for x in T3:
+    print(x)
