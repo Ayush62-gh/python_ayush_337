@@ -1,15 +1,10 @@
-student = {
-    "name": "ayush",
-    "roll_no": "2400320100337",
-    "branch": "CSE"
+d={
+    "brand":"Ford",
+    "model":"Mustang",
+    "year":1964
 }
-print("student name " + student["name"])
-print("student roll number is " + student["roll_no"])
-print("student branch is "+student["branch"])
-
-student["year"] = "1st Year"
-student["course"] = "Computer Science"
-
-print("\nUpdated Dictionary:")
-for key, value in student.items():
-    print(key, ":", value)
+print(d)
+print(len(d))
+print(type(d))
+d1=dict(brand="Ford",model="Mustang",year=1964)
+print(d1)
