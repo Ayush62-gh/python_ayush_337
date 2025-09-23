@@ -19,3 +19,23 @@ L =list(T)
 L[0]="kiwi"
 T=tuple(L)
 print(T)
+
+#add items
+T1 = ("apple","banana","cherry")
+T2 = ("orange",)
+T3 = T1 + T2  
+print(T3)
+
+#remove items
+#tuples are immutable so we cannot remove items but we can convert it to list and remove
+L = list(T3)
+L.remove("apple")
+T3 = tuple(L)
+print(T3)
+
+#unpacking a tuple
+fruits = ("apple","banana","cherry","orange","kiwi","mango")
+(green,*yellow,red) = fruits
+print(green)
+print(yellow)  
+print(red)
