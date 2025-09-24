@@ -1,10 +1,16 @@
 d={
     "brand":"Ford",
     "model":"Mustang",
-    "year":1964
+    "year":1964,
+    "mode":"F-150"
 }
 print(d)
 print(len(d))
 print(type(d))
 d1=dict(brand="Ford",model="Mustang",year=1964)
 print(d1)
+#pop
+d.pop("model")
+print(d)
+#popitem
+d.popitem()
