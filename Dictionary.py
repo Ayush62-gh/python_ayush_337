@@ -24,3 +24,8 @@ print(type(d))
 for x in d:
     print(x)
     print(type(x))
+
+#copy
+d2=d1.copy()
+print(d2)
+print(type(d2))
