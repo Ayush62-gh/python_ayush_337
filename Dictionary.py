@@ -14,3 +14,13 @@ d.pop("model")
 print(d)
 #popitem
 d.popitem()
+print(d)
+#del
+del d["year"]
+print(d)
+#type
+print(type(d))
+#for loop
+for x in d:
+    print(x)
+    print(type(x))
