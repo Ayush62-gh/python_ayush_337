@@ -29,3 +29,8 @@ for x in d:
 d2=d1.copy()
 print(d2)
 print(type(d2))
+
+#clear
+d2.clear()
+print(d2)
+print(type(d2))
