@@ -25,7 +25,7 @@ for x in d:
     print(x)
     print(type(x))
 
-#copy
+#copy(copies whole dictionary into a new dictionary)
 d2=d1.copy()
 print(d2)
 print(type(d2))
