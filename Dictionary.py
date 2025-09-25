@@ -34,3 +34,4 @@ print(type(d2))
 d2.clear()
 print(d2)
 print(type(d2))
+
